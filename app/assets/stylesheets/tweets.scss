@@ -1,0 +1,35 @@
+// Place all the styles related to the Tweets controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html, body {height:100%;}
+html {display:table; width:100%;}
+body {display:table-cell; text-align:center; vertical-align:middle;}
+
+.btn-delete {
+  float: right;
+  padding-right: 5px;
+}
+
+.btn-new {
+  color: blue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: solid 1px;
+  border-color: blue;
+  border-radius: 15px;
+  background-color: cyan;
+}
+table {
+  padding: 10px;
+  margin: 0 auto;
+}
+td {
+  border: solid 2px blue;
+  background-color: cyan;
+  border-radius: 20px;
+  width: 500px;
+  display: inline-block;
+  padding: 10px;
+}
